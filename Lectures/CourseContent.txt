@@ -1,0 +1,705 @@
+MACHINE LEARNING -CMPE 257
+
+Applied Machine Learning:
+Training Machines to Simulate Intelligence through Pattern Discovery and Recognition
+
+
+Course Description
+We will cover the practical and applied aspects of the foundations of Machine Learning, preparation of datasets, crafting a theme, conducting data enrichment around a base data set, understand and apply the machine learning life-cycle, phases and activities that lead to practical business value, crafting a narrative that interprets our data science analysis.
+We will explore in depth the foundations of ML including clustering, linear regression and classification feasibility and learning types, theory of generalization, bias and variance, linear models for classification and regression, latent manifolds, nonlinear vectorization, regularization and validation, support vector machines, ensemble methods, natural language processing, introduction to neural networks, hands-on projects.
+
+
+Course Goals
+Understand and apply the foundational aspects of machine learning as specified in the course syllabus.
+Course Learning Outcomes (CLO) (Required)
+Understand the life-cycle for machine learning: 
+1.	Applicability
+1.	When to use Machine Learning for which type of problems
+2.	Goals
+1.	Business/Organizational 
+2.	Identification of Outcomes, Data Narrative
+3.	Data a)Identification, b) Collection, c)Preparation, d)Exploration, e)Visualization , f)Enrichment
+4.	Model 
+1.	a)Fit for purpose designation, b) Algorithm Selection, 
+2.	Initial Training and Assessment
+1.	Bias versus Variance, Tradeoffs in Precision and Recall
+2.	Assessing error, confidence and outcomes, RMSE, L1, L2, etc.
+3.	a) Model Tuning and Improvement, b) Data Enrichment
+
+
+Readings/ Homework. (Required)
+Overview of Tools : Trello (Kanban Board for tasks), Slack for all communication inside teams and with Prof/TA, GitHub to store code, Colab to run python notebooks. Create your Trello for your team. 
+
+
+How to train your neural network to learn ML 
+
+
+Week 1: Clustering and Tech Debt in ML
+1.	Bias in Classification and Clustering. See this video for a description of bias in today's language. : from minute 7:15- minute 14:09. Note criteria for logistic regression (Black or not Black).
+2.	on Clustering : a. K-means Clustering, Section 13.2.1, EOSL (see textbook 2 above), b. code 1, code2; c: K-means Clustering Notes
+3.	As you learn AI and ML, ensure you realize the affects of AI/ML therefore, study AI Ethics. 
+1.	https://christophm.github.io/interpretable-ml-book/interpretability.html
+4.	Machine (Deep) Learning in Action: Learn from Data a function to convert Fahrenheit to Celcius
+5.	Get familiar with the best feature selection technique and improve your model accuracy
+1.	https://medium.com/next-gen-machine-learning/feature-selection-best-methods-for-feature-selection-python-f3536aad5b4a
+2.	Feature importance. https://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html
+
+
+Week 2: Data Acquisition, Clustering and Distributions
+1.	Data Acquisition
+2.	Clustering: a. Gaussian Mixture Models, code, b. code, and c. Expectation Maximization, some further d. slides, extra credit: e. Hierarchical Clustering, f. code, 
+1.	Note usage of Iris Data set to show the four types of Gaussians using this example code
+2.	Multivariate Normal Distributions. <Formal Definition>
+
+
+Week 3 : Latent Variables, Linear Models and Model Assessment
+1.	Regression : Linear Regression
+2.	Latent Features & Manifolds : nonparametric bayesian , Latent Variable Models, Latent Variable Models and Factor Analysis
+3.	[Chopra et al., 2007]: Discovering the hidden structure of house prices with non-parametric latent manifold model (KDD 2007)
+4.	Model Assessment and Selection 
+1.	Understanding AUC - ROC Curve 
+2.	The Confusion Matrix
+3.	Section: p219, EOSL
+4.	LIft 
+
+
+Week 4: Training, Classification and Regression, PCA
+1.	Training : Train Test Splitting
+2.	Classification: Logistic Regression. Example with code.
+3.	Regression : a) Python and Naive Bayes. b) Formal Intro to NB.
+1.	optional reference: Book : Bayes’ Rule With Python A Tutorial Introduction to Bayesian Analysis James V Stone. 
+4.	Code for Logistic Regression, PCA, Decision Trees. 
+5.	Code for Logistic Regression, PCA, Random Forest.
+
+
+Week 5: Bayes and Trees, Latent Manifolds
+1.	Implementing Naive Bayes, 
+2.	Logistic Regression vs Random Forest(Decision Trees), code
+3.	EOSL: CH 2 Linear model, Ch 6 Trees
+4.	[Chopra et al., 2007]: Discovering the hidden structure of house prices with non-parametric latent manifold model (KDD 2007)
+5.	https://towardsdatascience.com/simple-guide-for-ensemble-learning-methods-d87cc68705a2
+
+
+Week 5 - Supplemental (Optional)
+1.	No Free Lunch theorem by David H. Wolpert, no single classifier works best across all possible scenarios (The Lack of A Priori Distinctions Between Learning Algorithms, Wolpert and David H, Neural Computation 8.7 (1996): 1341-1390)
+2.	Cheatsheets by Shervine and Afshine Ahmadi . 
+
+
+Week 6: Distributions, Key Research Directions
+1.	http://statisticsbyjim.com/regression/choosing-regression-analysis/
+2.	Distributions, Poisson Random Fields for Dynamic Feature Models'. Perrone V., Jenkins P. A., Spano D., Teh Y. W. (2016)
+3.	Climate Change, Data About Climate Change
+4.	Learning Basics of NLP : Count Vectors and TD-IDF
+
+
+Midterm: Numeric Project and Test
+
+
+Week 7 : NLP: Word Embeddings, Semantic Analysis, text 5: SLP selected chapters
+1.	Blog and Code on Various Word embedding Methods
+2.	Word embeddings with Gensim .
+3.	LSA, PLSA, LDA. Latent Dirichlet Allocation, David Blei, et al.
+4.	Minimizing Fake News
+5.	A Quick Guide to Fake News Detection on Social Media, academic version : Studying Fake News via Network Analysis: Detection and Mitigation
+6.	Getting Real About Fake News : code
+7.	Detecting Fake News
+8.	https://www.analyticsvidhya.com/blog/2017/06/word-embeddings-count-word2veec/
+9.	https://medium.com/analytics-vidhya/demystifying-bert-the-groundbreaking-nlp-framework-8e3142b3d366
+
+
+Week 8: Embedding, Semantics and Topic Modeling
+1.	https://arxiv.org/pdf/1708.01967.pdf : Fake News Detection on Social Media: A Data Mining Perspective
+2.	Scaling to Very Very Large Corpora for Natural Language Disambiguation Michele Banko and Eric Brill
+3.	[LeCun and Kanter and Solla, 1991]: Eigenvalues of covariance matrices: application to neural-network learning: why learning is optimal when the number of training samples is about 4 times the number of parameters.
+4.	Named Entity Recognition and Classification.
+5.	IBM AI Bias Python Code Tutorial
+6.	Accenture AI Bias tool. Tackling the challenge of Ethics in AI. 
+7.	https://towardsdatascience.com/unsupervised-nlp-topic-models-as-a-supervised-learning-input-cf8ee9e5cf28
+8.	https://towardsdatascience.com/end-to-end-topic-modeling-in-python-latent-dirichlet-allocation-lda-35ce4ed6b3e0
+
+
+Week 9: Topic Modeling Part 2
+1.	Group Design Activity 
+2.	Architecture of Large ML systems integrated with Software Engineering systems
+3.	LDA2VEC
+4.	Quora Insincere Questions Classification 
+5.	New York Times. “As Fake News Spreads Lies, More Readers Shrug at the Truth” ↩
+6.	Pew Research Center. “Many Americans Believe Fake News Is Sowing Confusion” ↩
+7.	Dhruv Ghulati, Co-Founder, Factmata. “Introducing Factmata—Artificial intelligence for automated fact-checking” ↩
+8.	William Ferreira and Andreas Vlachos, “Emergent: a novel data-set for stance classification” ↩
+9.	Project reviews.
+
+
+Week 10 : Diving Deep Into NLP/NLU 
+1.	The 9 Deep Learning Papers You Need To Know About
+2.	NLP Code example : https://towardsdatascience.com/topic-modeling-and-latent-dirichlet-allocation-in-python-9bf156893c24
+3.	https://www.deeplearningbook.org/ . Chapter one : Ian Goodfellow
+4.	Deep Neural Nets without a PhD
+5.	https://www.tensorflow.org/tutorials/
+6.	Generating Poetry with Deep Neural Networks: Intro, Sam Ballas.
+7.	Project Reviews
+8.	see Alternus Vera Project
+
+
+Week 11 : Neural Networks and Deep Learning - part 1
+1.	Code for Tensorflow and Deeplearning , courtesy Martin Gorner. And this.
+2.	LSTMS and RNNs. http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+3.	Reducing Dimensionality of NN. Hinton et al.
+4.	CatBoost. Latest in Gradient Boosted Decision Trees. 
+5.	Project Reviews
+
+
+Week 12 : Neural Networks and Deep Learning - part 2
+1. Convolutional Neural Networks for Sentence Classification: https://arxiv.org/abs/1408.5882
+2. Project Reviews
+
+
+Texts (Optional & Complementary)
+
+
+Textbooks used as Reference
+Selected Chapters from Various Textbooks based upon the Machine Learning Life-cycle Outlined in Course Goals.
+1. Learning From Data, Abu-Mostafa et al. Caltech. (print only) (LFD)
+2. Elements of Statistical Learning, Stanford, Hastie et al. (online) (EOSL)
+3. Not very scary guide to ML, Gavin Brown, Univ of Manchester. (online) (G2ML)
+4. Deep Learning, Ian Goodfellow and Yoshua Bengio and Aaron Courville, MIT Press, (Online) (DLB)
+5. Speech and Language Processing, Daniel Jurafsky Stanford University James H. Martin University of Colorado at Boulder (online) (SLP)
+6. Applied Machine Learning: A Practitioner's Guide , Ali Arsanjani,. (AML)
+
+
+Readings (Optional but Recommended)
+
+
+Informative, Background, Re-Enforcement
+1.	Background 
+1.	Read Text 4, DLB, Part II to brush up on the math you need for ML.
+1.	Demystifying Math Behind Machine Learning
+2.	Python Numpy Quick Tutorial 
+3.	Pandas Cheat Sheet
+4.	Visualization: Intro.
+2.	How to collect data to tell a story
+3.	Clustering
+1.	GMM. Fitting to GMMS.
+2.	Probability Distributions.
+4.	Bayesian Nonparametrics
+5.	Artificial intelligence model “learns” from patient data to make cancer treatment less toxic
+6.	New chip reduces neural networks’ power consumption by up to 95 percent, making them practical for battery-powered devices.
+7.	Data Type in Python with Pandas, Numpy Tutorial
+8.	Nonparametric Latent Feature Models for Link Prediction. 
+9.	week 5-Regression : Choosing the Correct Type of Regression Analysis 
+10.	week 5-Assessing Models : https://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/
+11.	https://pandas.pydata.org/pandas-docs/stable/tutorials.html
+12.	https://colab.research.google.com/github/tensorflow/examples/blob/master/courses/udacity_intro_to_tensorflow_for_deep_learning/l02c01_celsius_to_fahrenheit.ipynb
+
+
+
+Grading
+Reading / Homework (10%). Each week you will be assigned readings (see articles for that week), accompanied by a programming assignment connected to them, often this will be a build up to the midterm (term Programming Project)
+Mid-Term Programming Project (30%). Billions of dollars of industry investment pour into what was considered (neural networks) an ivory tower, musty academic problem, government funding for science is moving in the opposite direction: Increasingly, academics must justify the payoff for industry before the basic research has begun.
+Final Research Paper & Project (30%) [based on Alternus Vera Project]. Einstein: “If we knew what it was we were doing, it would not be called research, would it?” 
+Midterm (15%). Aggregate learning of readings, lecture material until midterm.
+Final (15%). Everything we covered is fair game. 
+I've divided the weights so that small continuous sustained effort is rewarded and if you somehow do less than your expectations on the midterm or final, it's not going to completely throw off your grade.
+
+
+Data sets
+see page on main menu.
+Other technology requirements / equipment / material 
+computer, Python (Anaconda or Colabratory), Jupyter notebooks, Git
+
+BLOG
+
+Study for the Final
+1. Dataset : Comments of Amazon Products
+2. Study this review: https://www.kaggle.com/kernels/notebooks/new?forkParentScriptVersionId=2615953&userName=aarsanjani
+3. Study this Kernel: https://www.kaggle.com/adityapatil673/critical-assessment-amazon-reviews-on-kindle
+Note: you will be asked to provide an analysis of a product, a product other than kindle. The kernel code is analyzing the kindle reviews. We want something OTHER than the kindle reviews. But we want to answer the same type of questions.
+
+
+Consider Answering the following questions:
+1. Understand and clean the data
+	
+	Check for null values
+	Drop columns which aren't useful
+2. Speculate whether ratings are genuine ?
+	
+	what if the one user is trying to give all rating ?
+	How will the distribution look for bulk users ?
+	How many users are bulk ?
+3. Find the NPS net promoter score of amazon
+	
+	What's NPS score ?
+	How do we calculated for amazon ?
+4. Pick a product and deep dive
+	
+	We will pick one variation of kindle product drill & analyze its characteristics
+5. [Choose a Product] - What is the NPS score ? 
+6. [Choose a Product] - Plot time series for review
+	
+	How to handle date time text ?
+	How to plot time series on a graph ? 
+	How does the graph look like in small intervals of 7 days or 14 days or 30 days ?
+	Did the performance (NPS) go up or down with time ?
+7. [Choose a Product] Predict Recommendations based on reviews content
+	
+	Make a clean function
+	Remove punctuations
+	Remove stop-words
+	Stem and Lemmatize
+	Create a Distillation of the comments
+	Create a TFIDF vectorizer
+	Create Features
+	Understand and explore sentiment analysis
+	Use compound feature
+	Apply LDA to identify Topics
+	Use RandomForestClassifier
+	Check the score 
+
+
+Week 12: Deep Learning
+1. https://towardsdatascience.com/multi-class-text-classification-with-scikit-learn-12f1e60e0a9f
+2. https://medium.com/dair-ai/deep-learning-for-nlp-an-overview-of-recent-trends-d0d8f40a776d
+3. http://mlexplained.com/2018/06/15/paper-dissected-deep-contextualized-word-representations-explained/
+4. Gradient Boosted Trees
+5. Language Models . BERT : https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html
+ROBERTA, ULMFIT, ALBERT, XLNET
+
+
+
+
+Week 11: Deep Learning
+[1] Andrej Karpathy. “The Unreasonable Effectiveness of Recurrent Neural Networks”
+[2] Cristopher Olah. “Understanding LSTM Networks”
+[3] Jack Hopkins and Douwe Kiela. “Automatically Generating Rhythmic Verse with Neural Networks.” ACL (2017).
+[4] http://neuralpoetry.getforge.io/
+[5] CuratedAI — A literary magazine written by machines, for people.
+[6] Sam Ballas. “Generating Poetry with PoetRNN”
+[7] Marjan Ghazvininejad, Xing Shi, Yejin Choi, and Kevin Knight. http://52.24.230.241/poem/index.html
+[8] Lak Lakshmanan. “Cloud poetry: training and hyperparameter tuning custom text models on Cloud ML Engine”
+Fairness @ Google
+
+
+
+Week 8,9, 10: NLP
+1.	N. J. Conroy, V. L. Rubin, and Y. Chen, “Automatic deception detection: Methods for finding fake news,” Proceedings of the Association for Information Science and Technology, vol. 52, no. 1, pp. 1–4, 2015.
+2.	S. Feng, R. Banerjee, and Y. Choi, “Syntactic stylometry for deception detection,” in Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers-Volume 2, Association for Computational Linguistics, 2012, pp. 171–175.
+3.	Shlok Gilda,Department of Computer Engineering, Evaluating Machine Learning Algorithms for Fake News Detection,2017 IEEE 15th Student Conference on Research and Development (SCOReD)
+4.	http://news.mit.edu/2019/opening-machine-learning-black-box-fake-news-0206
+5.	http://fairness-measures.org/
+6.	fullffact.org
+7.	AIF360 IBM:
+8.	Interactive demo:
+9.	• http://aif360.mybluemix.net/data
+10.	• Additional tutorials/examples
+11.	• http://aif360.mybluemix.net/resources#
+12.	• https://github.com/IBM/AIF360/tree/master/examples
+13.	• Some guidance on choosing metrics/algorithms
+14.	• http://aif360.mybluemix.net/resources#guidance
+15.	https://github.com/several27/FakeNewsCorpus
+
+
+Week 7: NLP
+Topics and NLP/NLU/NLG
+1. Learned Word Embedding
+2. Topic Modeling with LSA, PLSA, LDA & lda2Vec
+3. What is LDA - super easy
+Fake News
+1.	http://science.sciencemag.org/content/359/6380/1146
+2.	Fake news detector
+3.	ML finds FN with 88% Accuracy
+4.	FN Datasets
+5.	Project Alternus Vera
+6.	Sentence embeddings for automated factchecking - Lev Konstantinovskiy: https://www.youtube.com/watch?v=ddf0lgPCoSo
+7.	https://datascience.stackexchange.com/questions/9443/when-to-use-one-hot-encoding-vs-labelencoder-vs-dictvectorizor
+8.	https://www.quora.com/What-are-some-datasets-about-fake-news
+9.	https://towardsdatascience.com/multi-class-text-classification-model-comparison-and-selection-5eb066197568
+10.	Another Good resource for rating media bias- https://www.allsides.com/media-bias/media-bias-rating-methods
+11.	click-bait analysis - https://www.businessinsider.com/click-o-tron-writes-clickbait-recurring-neural-networks-ai-lars-eidnes-2015-10
+12.	Bias of the websites towards certain political organisations are identified from mediafactcheck.com
+
+
+Week 6: Dimensionality
+Learning in High-Dimensional Multimedia Data: The State of the Art
+
+
+Latent Space Oddity: on the Curvature of Deep Generative Models 
+Georgios Arvanitidis, Lars Kai Hansen, Søren Hauberg, 15 Feb 2018ICLR 2018 
+Abstract: Deep generative models provide a systematic way to learn nonlinear data distributions through a set of latent variables and a nonlinear "generator" function that maps latent points into the input space. The nonlinearity of the generator implies that the latent space gives a distorted view of the input space. Under mild conditions, we show that this distortion can be characterized by a stochastic Riemannian metric, and we demonstrate that distances and interpolants are significantly improved under this metric. This in turn improves probability distributions, sampling algorithms and clustering in the latent space. Our geometric analysis further reveals that current generators provide poor variance estimates and we propose a new generator architecture with vastly improved variance estimates. Results are demonstrated on convolutional and fully connected variational autoencoders, but the formalism easily generalizes to other deep generative models.
+Keywords: Generative models, Riemannian Geometry, Latent Space
+
+
+Week 5: Regression and Model Assessment 
+	Use linear regression to understand the mean change in a dependent variable given a one-unit change in each independent variable. You can also use polynomials to model curvature and include interaction effects. Despite the term “linear model,” this type can model curvature.
+	use statistics measures for determining quality of your models
+	enrich your models with additional data to open the aperture of context and shine new light on data
+	Relating linear and logistic regression as well as the more advanced forms of regression, extending linear regression : http://statisticsbyjim.com/regression/choosing-regression-analysis/ (see your reading list)
+
+
+Week 5 : Classification 
+Implementing Naive Bayes
+Support Vector Machines
+
+Week 4. Latent Manifolds
+Discovering the Hidden Structure of House Prices with a Non-Parametric Latent Manifold Model
+Reading: 
+ABSTRACT
+"In many regression problems, the variable to be predicted depends not only on a sample-specific feature vector, but also on an unknown (latent) manifold that must satisfy known constraints. An example is house prices, which depend on the characteristics of the house, and on the desirability of the neighborhood, which is not directly measurable. The proposed method comprises two trainable components:The first one is a parametric model that predicts the “intrinsic” price of the house from its description. The second one is a smooth, non-parametric model of the latent “desirability” manifold. The predicted price of a house is the product of its intrinsic price and desirability. The two components are trained simultaneously using a deterministic form of the EM algorithm. The model was trained on a large dataset of houses from Los Angeles county. It produces better predictions than pure parametric and non-parametric models. It also produces useful estimates of the desirability surface at each location."
+Slides from Sumit Chopra. 
+
+
+Probabilistic Dimensional Reduction with Gaussian Process Latent Variable Model
+Neil Lawrence, https://www.youtube.com/watch?v=DS853uA0u4I
+ABSTRACT 
+Density modeling in high dimensions is a very difficult problem. 
+Traditional approaches, such as mixtures of Gaussians, typically fail to capture the structure of data sets in high dimensional spaces. In this talk we will argue that for many data sets of interest, the data can be represented as a lower dimensional manifold immersed in the higher dimensional space. We will then present the Gaussian Process Latent Variable Model (GP-LVM), a non-linear probabilistic variant of principal component analysis (PCA) which implicitly assumes that the data lies on a lower dimensional space. Having introduced the GP-LVM we will review extensions to the algorithm, including dynamics, learning of large data sets and back constraints. We will demonstrate the application of the model and its extensions to a range of data sets, including human motion data, a vowel data set and a robot mapping problem. 
+https://www.slideshare.net/jamesmcm03/the-gaussian-process-latent-variable-model-gplvm
+
+Neil Lawrence
+Unsupervised Learning with Gaussian Processes
+Conclusion: deal with high dimensional data by looking for lower dimensional non-linear embedding.
+
+Best-practices
+1.	Use linear regression to understand the mean change in a dependent variable given a one-unit change in each independent variable. You can also use polynomials to model curvature and include interaction effects. Despite the term “linear model,” this type can model curvature.
+2.	"Probabilistic PCA (PPCA) I A probabilistic version of PCA. I Probabilistic formulation is useful for many reasons: I Allows comparison with other techniques via likelihood measure. I Facilitates statistical testing. I Allows application of Bayesian methods. I Provides a principled way of handling missing values - via Expectation Maximization." - Neil Lawrence Slides
+Bias 
+1.	You Aren’t So Smart: Cognitive Biases are Making Sure of It
+
+
+CLASSWORK NOTES
+
+1.	https://colab.research.google.com/drive/1fZWutb4v9SM26mUT1X8liUwclAraGg68#scrollTo=3Y4I5KQHmE8A
+2.	How to structure your python code : https://docs.python-guide.org/writing/structure/
+
+
+Clustering
+1.	https://www.altoros.com/blog/using-k-means-clustering-in-tensorflow/
+2.	https://tensor-flow.com/hierarchical-clustering
+
+
+Machine Learning Life-cycle
+1.	Configuration of the System : Iterative, Notebook, code structure, data, where will it reside, folders, cloud buckets etc.
+2.	Data Collection : initial Data Set
+3.	Set Data Narrative : Set Business Objectives, what use case are you solving for
+4.	Exploratory Data Analysis and Visualization
+1.	feature analysis and engineering (for ML, for DL it's feature extraction)
+2.	Analyze data 
+3.	Visualize data
+4.	Run Stats: mean, median, mode, correlation, variance
+5.	.corr
+6.	pairplot()
+7.	gini score
+8.	feature_importance with xgboost
+5.	Data Prep: Curation
+1.	Feature Selection and Extraction : what are the main features to use in this data set?
+2.	Data Verification: Do we have enough data?
+3.	Possibility of Amalgamation1: Add Dataset 2
+4.	Data Cleansing
+5.	Data Regularization
+6.	Data Normalization
+6.	Unsupervised Exploration : Find relevant Clusters in Your Data
+1.	How many clusters? Explore different k’s…
+2.	Select Clustering algorithms, run several and compare in a table
+3.	What does each cluster mean? How do they contribute to your Data Narrative (Story)
+4.	Measure goodness of your clusters (e.g., BICs) 
+7.	Supervised Training Preparation: Data Curation : label your data set 
+1.	Classify Your Data Sets : Run different classification algorithms
+2.	Measure Classification Success
+3.	What regression objectives should we have? Complete your , add to your Data Story 
+4.	Run Regressions using various algorithms
+5.	Measure Success of Regressions and
+6.	Compare Regressions in a table 
+8.	Metrics and Evaluation
+1.	F1, R2, RMSE, 
+2.	Precision, Recall, Accuracy
+3.	Confusion Matrix
+4.	<Other metric as applicable to your project>
+9.	Distillation
+1.	Entity Identification
+2.	Customer Rank
+3.	Sentiment
+4.	Topic Modeling
+10.	Deep Learning
+1.	Choose Algorithms
+2.	Architecture
+3.	Run Learning/ Training
+4.	Change Hyper parameters
+5.	Tune them
+6.	Run measurements of success
+7.	Add to your data story
+8.	Happy with results?
+11.	Inference
+1.	Deploy as endpoints for inference
+2.	Serving Infrastructure
+12.	Monitoring 
+13.	When do I re-train with newly acquired data? Training refresh
+14.	Build Machine Learning Pipeline
+1.	Process Management tools
+15.	Machine resource management, elastic inference
+16.	Analysis tools
+
+•https://colab.research.google.com/drive/126rDb3AvQYi6z9MkcrolcY3gIl_ZcZ3O#scrollTo=pxJghm3afqsV
+•https://colab.research.google.com/github/GoogleCloudPlatform/tensorflow-without-a-phd/blob/master/tensorflow-rnn-tutorial/02_Keras_RNN_TPU_temperatures_playground.ipynb
+•https://colab.research.google.com/drive/15Ga33lQzWcpT_XF2ZjZr3WZcfai6nLqg#scrollTo=9ga_jncykosN
+•https://colab.research.google.com/github/GoogleCloudPlatform/tensorflow-without-a-phd/blob/master/tensorflow-rnn-tutorial/01_Keras_stateful_RNN_playground.ipynb
+•https://colab.research.google.com/drive/1kiZqRXxBpd-7xGwTtnMeRB3aPxHWDekb#scrollTo=_EUH_ZsZKh1D
+•https://colab.research.google.com/github/GoogleCloudPlatform/tensorflow-without-a-phd/blob/master/tensorflow-rnn-tutorial/00_Keras_RNN_predictions_playground.ipynb#scrollTo=zPsQiS8pYysi
+•https://colab.research.google.com/github/lmoroney/mlday-tokyo/blob/master/Lab5-Using-Convolutions-With-Complex-Images.ipynb#scrollTo=Fb1_lgobv81m
+•https://colab.research.google.com/drive/1wsg5KVrpiI7HHI93PT7swQBUEOZwmIU-
+•https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Exercises/Exercise%203%20-%20Convolutions/Exercise%203%20-%20Answer.ipynb
+•https://colab.research.google.com/drive/1vtuBuqQDJA83Miw7uqBGklIbZshIOu2P#scrollTo=A_BoD-d72mHh
+•https://colab.research.google.com/drive/1KYsRd7QxlVlAd9T52Ogyjv4ukIfnM5n6#scrollTo=luEI1_HY6eZP
+•https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Exercises/Exercise%203%20-%20Convolutions/Exercise%203%20-%20Question.ipynb#scrollTo=sfQRyaJWAIdg
+•https://colab.research.google.com/drive/1j5NdaufcI3LTS-DoarJR5VzGyh5pqPOb
+•https://colab.research.google.com/github/lmoroney/mlday-tokyo/blob/master/Lab1-Hello-ML-World.ipynb#scrollTo=lpRrl7WK10Pq
+•https://colab.research.google.com/drive/1xgsuTf7N2Ce1bdwrFPJZwT-0JFz7rbYB#scrollTo=ZpYRidBXpBPM
+•https://colab.research.google.com/github/lmoroney/mlday-tokyo/blob/master/Lab4-Using-Convolutions.ipynb#scrollTo=C0tFgT1MMKi6
+
+
+TOP 10 ML SWE principles
+
+1.	Divide your code using imports
+a. Use Imports for each factor, 
+b. one class for each factor (edited) 
+2. Pipelines. Use Scikitlearn pipelines (not for Logistic Regression!)
+3. Pickl my models and load if I have already trained them
+4. used at least 3 amalgamations : e.g., liar liar + twitter + fake news. Make sure you provide links to the datasets you use for training, testing and validation , before and after amalgamations.
+a. test, train validation --> url (googledrive), source --> url
+b. amalgamation dataset 2 --> url, result of amalgamation --> url (googledrive)
+c. amalgmation dataset 3 --> url, result of amalgamation --> url (google drive) (edited) 
+5. used multiple algorithms. Compare results in a table : with precision, recall, accuracy and f1 listed. (edited) 
+6. shown precision, recall, accuracy and f1,
+7. confusion matrix (display actual matrix vs just printing it) (edited) 
+8. interpret the results and show them in a table: how did I get better results from amalgamation and distillation? Is the shape of data influencing the results? How? (edited) 
+9. Used our machine learning lifecycle (posted on the website) up to step 9, deep learning
+10. In my video and submission text have I shown what I have done beyond last week, or weeks before (don't just go over the same things you did in the last video!)
+
+
+ALTERNUS VERA
+
+Alternus Vera is a project designed to support the minimization of bias in AI and ML Data Sets.
+Input : a Data Set consisting of text (articles, news, tweets, documents) : Liar Liar
+Output : a Vector that indicates the percentage of "Alternus Vera" Score or "Truth" in the article based on the other factors that the Alternus Vera score is composed of Alternus Vera Factors based on “Fake News Detection on Social Media: A Data Mining Perspective” :
+1.	Political affiliation
+2.	Sentiment Analysis
+3.	Topic features – That can be extracted using models like LDA
+4.	Post/Social media activities based: People express their emotions or opinions towards fake news through social media posts.
+5.	Visual based: Fake news detection based on images and video links features in the dataset.
+6.	Linguistic based: Fake news detection based on Sensationalism and writing style (features: Article title and text)
+7.	Reliable source: Fake news detection based on the source of the article.
+8.	Authenticity: Fake news includes false information that can be verified as such.
+9.	Intent : Fake news is created with dishonest intention to mislead consumers
+10.	Confirmation Bias: consumers prefer to receive information that confirms their existing views
+11.	Psychology utility: receiving news that satisfies their prior opinions and social needs
+12.	Social credibility: which means people are more likely to perceive a source as credible if others perceive the source is credible
+13.	Frequency heuristic: means that consumers may naturally favor information they hear frequently, even if its fake
+14.	Credibility and Reliability: based on registration age, number of followers/followees, number of tweets the user has authored.
+15.	Stance features (also called viewpoints) – indicate the user’s opinion about the news such a supporting or denying. 
+16.	Credibility – for the posts access the degree of reliability
+17.	Echo Chamber – users on social media tend to form groups containing like-minded people where they then polarize their opinions, resulting in an echo chamber effect. 
+18.	Sensationalism 
+19.	Location / Geography 
+20.	Education 
+21.	Gender 
+22.	User based: malicious account, names, comments, likes.
+23.	Naive Realism: consumers tend to believe that their perceptions of reality are the only accurate views, while others who disagree are regarded as uninformed, irrational or biased.
+24.	Network based: users form different networks on social media in terms of interests, topics and relations. 
+25.	Style based: capturing the manipulators in the writing style of news content.
+26.	Short-term utility: the incentive to maximize profit, which is positively correlated with the number of consumers reached; 
+27.	Long term utility: their reputation in terms of news authenticity. Utility of consumers consists of two parts: 
+1.	(i) Information utility: obtaining true and unbiased information (usually extra investment cost needed); 
+2.	(ii) Psychology utility: receiving news that satisfies their prior opinions and social needs, e.g., confirmation bias and prospect theory. 
+
+SUPERVISED LEARNING 
+
+HOW TO CREATE A SUPERVISED LEARNING MODEL WITH LOGISTIC REGRESSION
+RELATED BOOK
+Predictive Analytics For Dummies
+By Anasse Bari, Mohamed Chaouchi, Tommy Jung
+After you build your first classification predictive model for analysis of the data, creating more models like it is a really straightforward task in scikit. The only real difference from one model to the next is that you may have to tune the parameters from algorithm to algorithm.
+
+
+HOW TO LOAD YOUR DATA
+This code listing will load the iris dataset into your session:
+from sklearn.datasets import load_iris
+iris = load_iris()
+
+
+HOW TO CREATE AN INSTANCE OF THE CLASSIFIER
+The following two lines of code create an instance of the classifier. The first line imports the logistic regression library. The second line creates an instance of the logistic regression algorithm.
+from sklearn import linear_model
+logClassifier = linear_model.LogisticRegression(C=1, random_state=111)
+Notice the parameter (regularization parameter) in the constructor. The regularization parameter is used to prevent overfitting. The parameter isn’t strictly necessary (the constructor will work fine without it because it will default to C=1). Creating a logistic regression classifier using C=150 creates a better plot of the decision surface. You can see both plots below.
+
+
+HOW TO RUN THE TRAINING DATA
+You’ll need to split the dataset into training and test sets before you can create an instance of the logistic regression classifier. The following code will accomplish that task:
+from sklearn import cross_validation
+X_train, X_test, y_train, y_test = cross_validation.train_test_split(iris.data, iris.target, test_size=0.10, random_state=111)
+logClassifier.fit(X_train, y_train)
+Line 1 imports the library that allows you to split the dataset into two parts.
+Line 2 calls the function from the library that splits the dataset into two parts and assigns the now-divided datasets to two pairs of variables.
+Line 3 takes the instance of the logistic regression classifier you just created and calls the fit method to train the model with the training dataset.
+
+
+HOW TO VISUALIZE THE CLASSIFIER
+Looking at the decision surface area on the plot, it looks like some tuning has to be done. If you look near the middle of the plot, you can see that many of the data points belonging to the middle area (Versicolor) are lying in the area to the right side (Virginica).
+This image shows the decision surface with a C value of 150. It visually looks better, so choosing to use this setting for your logistic regression model seems appropriate.
+
+
+HOW TO RUN THE TEST DATA
+In the following code, the first line feeds the test dataset to the model and the third line displays the output:
+predicted = logClassifier.predict(X_test)
+predictedarray([0, 0, 2, 2, 1, 0, 0, 2, 2, 1, 2, 0, 2, 2, 2])
+
+
+HOW TO EVALUATE THE MODEL
+You can cross-reference the output from the prediction against the y_testarray. As a result, you can see that it predicted all the test data points correctly. Here’s the code:
+from sklearn import metrics
+predictedarray([0, 0, 2, 2, 1, 0, 0, 2, 2, 1, 2, 0, 2, 2, 2])
+y_testarray([0, 0, 2, 2, 1, 0, 0, 2, 2, 1, 2, 0, 2, 2, 2])
+metrics.accuracy_score(y_test, predicted)1.0 # 1.0 is 100 percent accuracy
+predicted == y_testarray([ True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], dtype=bool)
+So how does the logistic regression model with parameter C=150 compare to that? Well, you can’t beat 100 percent. Here is the code to create and evaluate the logistic classifier with C=150:
+logClassifier_2 = linear_model.LogisticRegression( C=150, random_state=111)
+logClassifier_2.fit(X_train, y_train)
+predicted = logClassifier_2.predict(X_test)
+metrics.accuracy_score(y_test, predicted)0.93333333333333335
+metrics.confusion_matrix(y_test, predicted)array([[5, 0, 0], [0, 2, 0], [0, 1, 7]])
+We expected better, but it was actually worse. There was one error in the predictions. The result is the same as that of the Support Vector Machine (SVM) model.
+Here is the full listing of the code to create and evaluate a logistic regression classification model with the default parameters:
+from sklearn.datasets import load_iris
+from sklearn import linear_model
+from sklearn import cross_validation
+from sklearn import metrics
+iris = load_iris()
+X_train, X_test, y_train, y_test = cross_validation.train_test_split(iris.data, iris.target, test_size=0.10, random_state=111)
+logClassifier = linear_model.LogisticRegression(, random_state=111)
+logClassifier.fit(X_train, y_train)
+predicted = logClassifier.predict(X_test)
+predictedarray([0, 0, 2, 2, 1, 0, 0, 2, 2, 1, 2, 0, 2, 2, 2])
+y_testarray([0, 0, 2, 2, 1, 0, 0, 2, 2, 1, 2, 0, 2, 2, 2])
+metrics.accuracy_score(y_test, predicted)1.0 # 1.0 is 100 percent accuracy
+predicted == y_testarray([ True, True, True, True, True, True, True, True, Tru
+
+AI ETHICS
+
+Evil artificial intelligence is a mainstay of science fiction, from Terminator’s Skynet to 2001: A Space Odyssey’s HAL.
+But as machine learning is increasingly hyped , there is an increasingly growing group of scientists concerned with keeping AI “safe” has emerged. Its loudest voices certainly are well known scientists with good reputations: Stephen Hawking told the BBC artificial intelligence could “spell the end of the human race,” and Elon Musk, the Tesla and SpaceX entrepreneur, has called AI an “existential threat.”
+See the Arsanjani Laws for Cognitive Computing. related to AI Ethics. 
+
+HISTORY
+
+"Do events shape history? or do people shape history? In the final analysis, I think it is people that create events that shape history." -Maryam Daftari, Political Scientist
+1958. The Perceptron was an early neural network. Its designer was Frank Rosenblatt, a young research scientist at Cornell. Rosenblatt was convinced that algorithms could learn as human brains do, and his machine made use of this architecture: like the brain’s web of neurons, information travels through interconnected layers of nodes.
+1969. Marvin Minsky of MIT, and Seymour Papert published a book called Perceptrons that summarily dismissed the neural networks’ potential to succeed at complex tasks. The book is still controversial: most credit it with quashing interest in the nascent field. For the next 15 years, interest and funding were shunted elsewhere.
+1977. Dempster et al. http://web.mit.edu/6.435/www/Dempster77.pdf, The Expectation-Maximization Algorithm.
+The AI winter had started.
+1978. Hinton receives doctorate in Neural Networks. He moved around a lot, searching for a research haven. He spent some vital time at the University of California, San Diego, where the academic atmosphere, he says, was much more receptive, and where he collaborated with the cognitive neuroscience pioneer David Rumelhart.
+1980s. Neural nets stalled, the AI winter was in full force, and most of academia turned its back. Geoffrey Hinton was one of the few who soldiered on, their research aided by a modest Canadian grant.
+1986. Hinton, Rumelhart and computer scientist Ronald J. Williams co-authored a paper that showed how a method called “backpropagation” could vastly improve the efficiency of neural networks. Backpropagation made neural nets substantially better at tasks such as recognizing simple shapes and predicting a third word after seeing two. A system based on the work of Yann LeCun was eventually used to read bank cheques. By the late ’80s, neural nets seemed poised to transform AI.
+2006. Hinton made a breakthrough. In quick succession, neural networks, rebranded as “deep learning,” began beating traditional AI in every critical task: recognizing speech, characterizing images, generating natural, readable sentences. Google, Facebook, Microsoft and nearly every other technology giant have embarked on a deep learning gold rush, competing for the world’s tiny clutch of experts. Deep learning startups, seeded by hundreds of millions in venture capital, are mushrooming.
+2006. Hinton and a PhD student, Ruslan Salakhutdinov, published two papers that demonstrated how very large neural networks, once too slow to be effective, could work much more quickly than before. The new nets had more layers of computation: they were “deep,” hence the method’s rebranding as deep learning.
+And when researchers began throwing huge data sets at them, and combining them with new and powerful graphics processing units originally built for video games, the systems began beating traditional machine learning systems that had been tweaked for decades. Neural nets were back.
+2011. Navdeep Jaitly, a PhD student under Hinton, became a Google intern in the summer of 2011. He was asked to tinker with Google’s speech recognition algorithms, and he responded by suggesting they gut half their system and replace it with a neural net. Jaitly’s program outperformed systems that had been fine-tuned for years, and the results of his work found their way into Android, Google’s mobile operating system — a rare coup for an intern. Jaitly now works at Google Brain as a full-time research scientist.
+2012. IBM Watson. David Ferucci and team of 70 IBMers.
+2012. Hinton and two of his other U of T students, Alex Krizhevsky and Ilya Sutskever, entered an image recognition contest. Competing teams build computer vision algorithms that learn to identify objects in millions of pictures; the most accurate wins. The U of T model took the error rate of the best-performing algorithms to date, and the error rate of the average human, and snapped the difference in half like a dry twig. The trio created a company, and Google acquired it.
+2013. British startup called DeepMind Technologies posted a preprint of a research paper that showed how it had taught a neural net to play, and beat, Atari games.
+2014. Jeff Dean, a Google engineer, met visiting researcher Andrew Ng, of Stanford University . Ng was also using neural networks. They formed a team to see what these models could do with a huge thrust of computing force behind them. The project was initially based out of Google X, a semi-secret laboratory for ambitious, long-range projects. The first thing the team did was design a massive neural net — some one billion connections distributed across 16,000 computer processors — and feed it a database of 10 million random frame grabs from YouTube. The images were unlabelled: in other words, the computer model was given an ocean of pixels and no other information. Could it learn to detect objects without human help?
+After three days, the researchers came back and ran a series of visualizations on the neural net to see what its strongest impressions were. Three fuzzy images emerged: a human face, a human body and a cat.
+“The model was actually picking up on patterns that you as a human would also say are important, without ever being told,” says Dean. 
+2016. AlphaGo, Google.
+References: Excerpts from various articles, primarily here.
+
+
+SYLLABUS
+
+CMPE 257: Machine Learning
+
+
+Syllabus
+1.	Applicability of Machine Learning and AI
+1.	Intro ML
+1.	When to use Machine Learning for which type of problems
+2.	Clustering
+3.	Classification
+4.	Regression
+2.	ML, Data Pipeline and Serving Architectures
+2.	Goals : Fulfilling Business Needs
+1.	Business/Organizational 
+2.	Identification of Outcomes, 
+3.	Data : How to use and prepare datasets
+1.	Identification: motivated by business problem, KPIs, what you are solving for.
+2.	Collection: What are available data sets? Where can we find additional relevant data?
+3.	Preparation: How do we prepare data for evaluation and training?
+4.	Exploration: Pandas, Numpy, Scipy, Gensim
+5.	Visualization: Seaborn and Bokeh
+4.	Model
+1.	Generative vs Discriminative Models: Naive Bayes, Logistic Regression
+2.	Model Architecture
+1.	Feed Forward
+2.	CNN
+3.	RNN
+1.	LSTM
+3.	Initial Modeling 
+1.	Clustering
+1.	K-means
+2.	Hierarchical
+3.	Gaussian Mixture Models
+4.	Latent Dirichlet Allocation (LDA) and its variations for Natural Language Processing
+2.	Classification
+1.	Logistic Regression
+3.	Regression
+1.	Linear Regression
+2.	Multivariate Regressions
+3.	Random Forest
+4.	Model Tuning 
+1.	Bias/Variance; 
+2.	Measuring Model accuracy, RMSE, SSE, etc.
+5.	Data Enrichment
+1.	Process and Patterns for Data Enrichment
+6.	Fit for purpose designation
+1.	Using emsemble methods: combining techniques for clustering, classification and regression
+7.	Algorithm Selection, 
+8.	Initial Training and Assessment
+1.	Bias versus Variance, Tradeoffs in Precision and Recall
+2.	Assessing error, confidence and outcomes, RMSE, L1, L2, etc.
+9.	a) Model Tuning and Improvement, b) Data Enrichment
+
+
+DATASETS
+1.	. Getting Real about fake News
+2.	UC Irvine Datasets
+3.	Real Estate from RedFin
+4.	StatCrunch
+5.	Data.World.com
+6.	Clustering Data Set examples with Shapes
+7.	https://github.com/awesomedata/awesome-public-datasets
+8.	https://www.kaggle.com/datasets 
+9.	http://reddit.com/r/datasets
+10.	http://ghdx.healthdata.org/gbd-2017/data-input-sources
+
+You can find data sets across the internet. Here are some you can start with....
+Important for you is to find a passion, an unfolding story, a "cause" you care about and develop your data science story around it.
+
+
+
+
+
+Important links for ML course
+1. K Means clustering
+https://medium.com/code-to-express/k-means-clustering-for-beginners-using-python-from-scratch-f20e79c8ad00
+2. Standardize for kmeans clustering
+
+https://www.analyticsvidhya.com/blog/2019/08/comprehensive-guide-k-means-clustering/
+
+
+MIDTERM Sample type:
+https://github.com/anvitha-jain/MLColab/blob/master/Midterm.ipynb
+
+https://github.com/anvitha-jain/MLColab/blob/master/CrimeRate.ipynb
+
+
+
+ 
+
+
